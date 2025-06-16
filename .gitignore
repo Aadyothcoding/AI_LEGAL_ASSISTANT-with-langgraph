@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Streamlit cache
+.streamlit/
+*.streamlit-*
+
+# ChromaDB persistence directory (if storing locally)
+chroma/
+chroma_db/
+chroma.db/
+*.chroma/
+index/
+*.pq
+*.parquet
+*.hnsw
+
+# Logs
+*.log
+
+# MacOS metadata
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Python egg metadata
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Sample PDFs
+sample_documents/
+*.pdf
